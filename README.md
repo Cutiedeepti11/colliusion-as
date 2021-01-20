@@ -1,2 +1,2 @@
-# colliusion-as
-all code
+# collisionAlgorithm
+Algorithm to detect collision between two objects
