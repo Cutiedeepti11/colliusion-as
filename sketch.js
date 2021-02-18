@@ -33,7 +33,7 @@ function draw() {
     fixedRect.shapeColor="yellow";
   }
 
-  BounceOff(car,wall);
+  bounceOff(car,wall);
   drawSprites();
 }
 function isTouching(object,object1)
@@ -48,7 +48,7 @@ function isTouching(object,object1)
       return false;
     }
 }
-function BounceOff(object,object1)
+function bounceOff(object,object1)
 {
   if(object.x - object1.x < object1.width/2 + object.width/2
     && object1.x - object.x < object1.width/2 + object.width/2
